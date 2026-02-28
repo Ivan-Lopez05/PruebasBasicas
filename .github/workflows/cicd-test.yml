@@ -45,8 +45,8 @@ jobs:
 
     - name: Build Clase
       run: |
-        mkdir build
-        cp calculadora.py build/
+        mkdir -p build
+        cp Calculadora.py build/
 
     - name: Build Reporte COV
       run: |
