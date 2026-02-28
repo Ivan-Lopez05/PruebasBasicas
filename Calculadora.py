@@ -3,4 +3,4 @@ class Calculadora:
         return a + b
     ###calculo de la resta
     def subtract(self, a, b):
-        return a - b + a
+        return a - b
